@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <div class="jumbotron text-center">
+        <h1>My Great App Using BT4</h1>
+        <p>Trying a few stuff...</p> 
+    </div>
+
+    <div class="container">
+        <div class="col-5">
+            <form>
+                <div class="form-group">
+                    <label>Loan Calculator:</label>
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="amount" placeholder="Money">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="taxes" placeholder="Tax Percentage">
+                </div>
+                <div class="form-group">
+                    <input type="text" class="form-control" id="years" placeholder="Years">
+                </div>
+                <button class="btn btn-primary" onclick="f()">Submit</button>
+            </form>
+            <div class="form-group">
+                <h4 id="totalmoney"></h4>
+                <h4 id="totaltax"></h4>
+                <h4 id="meses"></h4>
+            </div>
+        </div>
+    </div>
+      <script src="app.js"></script>
+</body>
+</html>

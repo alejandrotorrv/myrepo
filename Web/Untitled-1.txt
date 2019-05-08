@@ -1,0 +1,10 @@
+html
+css
+javascript
+frontend
+backend
+bases de datos relacionales
+Big data
+data modeling
+automation
+QA
