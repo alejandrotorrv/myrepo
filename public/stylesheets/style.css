@@ -18,7 +18,7 @@ a {
   flex-direction: row;
   flex: 1;
   background: -webkit-linear-gradient(0deg, transparent 95%, white 100%),-webkit-linear-gradient(90deg, transparent 95%, white 100%);
-  background-color: #38ada9;
+  background-color: #6b2ecc;
   background-size: 20px 20px, 20px 20px;
 }
 
