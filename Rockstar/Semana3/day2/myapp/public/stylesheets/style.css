@@ -1,0 +1,36 @@
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.ships{
+  position: relative;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  
+  /*background: repeating-linear-gradient(0deg, rgb(182, 181, 181) 91%, white 100%),
+  repeating-linear-gradient(0.25turn,  #3f87a6 90%, white);*/
+
+  background: repeating-linear-gradient(transparent, #e07979 10%),
+            repeating-linear-gradient(0.25turn, transparent, #3f87a6 20px);
+
+
+}
+
+.ship {
+  position: absolute;
+  background: rebeccapurple;
+  border-radius: 20px;
+  margin-left: -20px;
+  margin-top: -20px;
+  /*
+  min-width: 10px;
+  min-height: 10px;
+  */
+}

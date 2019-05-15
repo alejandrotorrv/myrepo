@@ -42,11 +42,15 @@ function showTweets() {
     document.body.innerHTML = output;
 }
 
-function createTweet(newTweet, callback) {
-    setTimeout(function() {
-        myTweets.push(newTweet);
-        callback();
-    }, 2000);
+function createTweet(newTweet) {
+    return new Promise (function (resolve, reject){
+        setTimeout(function() {
+            myTweets.push(newTweet);
+            resolve();
+            //callback();
+        }, 2000);
+    })
 }
 
-createTweet(tweet104, showTweets);
+createTweet(tweet104)
+    .then(showTweets);
