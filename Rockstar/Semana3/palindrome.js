@@ -19,7 +19,7 @@ isPalindrome('Lamina animal'); // true
 function isPalindrome (arg) { // "Lamina animal"
     // var en_medio = parseInt((word.length / 2)) - 1; // 5
     let num=0;
-    let x = arg.split("");
+    let x = arg.toLowerCase().split("");
     for (let i = 0; i < x.length; i++) { // i = 0
         if(x[i]==x.reverse()[i])
             num++;
